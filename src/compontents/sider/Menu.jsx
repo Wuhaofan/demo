@@ -13,11 +13,12 @@ const MenuComponent = props => {
         theme="dark"
     >
       {
-       [...Array(100).fill(0)].map((item,index) => {
+       [...Array(20).fill(0)].map((item,index) => {
+           console.log(index)
             return (
                 <Menu.Item key={index}>
-                  <Link to={`/Form/${index}`}>
-                    <span>{index}</span>
+                  <Link to={`/Form/${index+1}`}>
+                    <span>{index+1}</span>
                   </Link>
                 </Menu.Item>
             )

@@ -9,7 +9,7 @@ class SiderComponent extends Component {
       <Sider
           collapsed={false}
           collapsible
-          style={{ overflowY: 'auto', overflowX: 'hidden', height: '100vh', position: 'fixed', left: 0 ,backgroundColor:'#fff'}}
+          style={{ overflowY: 'auto', overflowX: 'hidden', height: 'calc(100vh - 100px)', position: 'fixed', left: 0 ,backgroundColor:'#fff'}}
           trigger={null}
           width={200}
       >
