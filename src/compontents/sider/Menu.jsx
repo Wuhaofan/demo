@@ -14,7 +14,6 @@ const MenuComponent = props => {
     >
       {
        [...Array(20).fill(0)].map((item,index) => {
-           console.log(index)
             return (
                 <Menu.Item key={index}>
                   <Link to={`/Form/${index+1}`}>
