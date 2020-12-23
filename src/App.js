@@ -1,5 +1,5 @@
 import React,{ PureComponent} from 'react'
-import {HashRouter as Router, Route, Switch,Redirect} from 'react-router-dom'
+import {HashRouter as Router, Route, Switch,} from 'react-router-dom'
 import './App.css';
 import 'antd/dist/antd.css';
 import Layout from './compontents/Layout'

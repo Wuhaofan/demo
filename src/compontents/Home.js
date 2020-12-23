@@ -1,12 +1,12 @@
 import React,{Component} from 'react'
-class Form extends Component {
+class Home extends Component {
   render() {
         return (
             <div>
-                 {this.props.match.params.index}  
+                主页
             </div>
         )
   }
 }
 
-export default Form
+export default Home
